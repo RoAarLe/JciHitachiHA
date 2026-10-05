@@ -3,9 +3,9 @@
   "name": "JciHitachi TW",
   "codeowners": ["@qqaatw"],
   "config_flow": true,
-  "documentation": "https://github.com/qqaatw/JciHitachiHA",
+  "documentation": "https://github.com/RoAarLe/JciHitachiHA",
   "iot_class": "cloud_polling",
-  "issue_tracker": "https://github.com/qqaatw/JciHitachiHA/issues",
-  "requirements": ["LibJciHitachi==1.7.2"],
-  "version": "1.9.5"
+  "issue_tracker": "https://github.com/RoAarLe/JciHitachiHA/issues",
+  "requirements": ["awsiotsdk>=1.22.0", "httpx>=0.28.0", "paho-mqtt>=2.0.0"],
+  "version": "1.9.6-ning.1"
 }
